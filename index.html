@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <style type="text/css">
+    .imp{
+      background-color:#ffe0b947;
+      height:300vh;
+      width:100%;
+    }
+    .main{
+      margin:auto;
+      width:80%;
+      align-items:center;
+      justify-content:center;
+      display:flex;
+      padding:100px 0;
+    }
+    .left{
+     flex-basis:30%;
+    }
+    .left img{
+      height:500px;
+      border-radius:10px;
+    }
+    .right{
+       height:480px;
+      background-color:white;
+      width:260px;
+      padding:10px 38px;
+      border-radius:10px;
+      align-items:center;
+      justify-content:center;
+      text-align:left;
+    }
+    .right p{
+      color:#777;
+      font-size:17px;
+    }
+    .right h1{
+      font-size:40px;
+      font-family:slab-serif;
+    }
+    .btn{
+      width:265px;
+      height:50px;
+      border-radius:10px;
+      background-color:#0B5345;
+      margin:10px;
+    }
+    .btn a{
+     color:white;
+     text-decoration:none;
+     font-weight:bold;
+     text-align:center;
+    }
+    .btn a .fa-solid{
+      margin:10px;
+    }
+    .num{
+      display:flex;
+      justify-content:space-around;
+    }
+    @media(max-width: 700px){
+      .main{
+        display:block;
+      }
+      .left img{
+
+      }
+    }
+  </style>
+</head>
+</body>
+<section class="imp">
+<div class="main">
+  <div class="left">
+    <img src="image.jpg">
+  </div>
+  <div class="right">
+    <p style="letter-spacing:3px;">PERFUME</p>
+    <h1>Gabrielle <br> Essences Eau<br> De Parfum</h1>
+    <p>A floral,solar and voluptuous <br> interpretation composed by <br> Olivier Ploge,Perfumer-Creator<br> for the House of CHANEL.</p>
+    <div class="num"><h1 style="color: #117A65; margin:0;">$149.99</h1>
+    <p><strike>#169.99</strike></p></div>
+    <button class="btn"><a><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a></button>
+  </div>
+</div></section>
+</html>
